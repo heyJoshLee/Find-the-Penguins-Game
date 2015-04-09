@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="timeout.js"></script>
+     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+    <script src="jquery.snow.js"></script>
+    <script src="buttons.js"></script>
+    <script src="xMasCounter.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900,900italic' rel='stylesheet' type='text/css'>
+    <audio id="audiotag1" src="tpirhorns.wav" preload="auto"></audio>
+    <audio id="audiotag2" src="point.wav" preload="auto"></audio>
+    <audio id="audiotag3" src="jingleBell.mp3" preload="auto"></audio>
+    
+    
+    <title>Our Title</title>
+    </head>
+<body>
+    
+    <script>
+$(document).ready( function(){
+        $.fn.snow();
+});
+</script>
+    
+    
+    
+        
+        <div id='pageWrapper'>
+                <div id='topBar'>
+                    <div id="title"></div>
+                    <ul>
+                        
+                    <li><div id='soundsButton' onclick="toggleSound()">
+                        <h2 id='buttonHeading1'>Sound Effects</h2>
+                        </div></li>
+
+                        
+                    <li><h1 id='points'>0</h1><h1 id='points'>Points</h1></li>
+                        
+                    <li><div id='musicButton' onclick="toggleMusic()">
+                        <h2 id='buttonHeading2'>Music</h2>
+                    </div></li>
+                        </ul>
+                   
+                </div>
+        
+            <div id="gameholder">
+                <ul id='topRow'>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot1" onclick='getCardStats1()'></li>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot2" onclick='getCardStats2()'></li>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot3" onclick='getCardStats3()'></li>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot4" onclick='getCardStats4()'></li>
+                </ul>
+                
+                <ul id='bottomRow'>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot5" onclick='getCardStats5()'></li>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot6" onclick='getCardStats6()'></li>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot7" onclick='getCardStats7()'></li>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot8" onclick='getCardStats8()'></li>
+                <li><img src='img/blank_transparent.png' class='spot' id="spot9" onclick='getCardStats9()'></li>
+                </ul>
+                
+            </div>
+            </div>
+    
+    
+    
+    
+    
+    <!--<div id='thanks'>
+    <h1 class='nobreak'> Thanks for playing my game!<br> There's only</h1><span class='nobreak' id='daysSpot'><script>daysLeft</script></span><h1 class='nobreak'>days until Christmas.</h1>
+        <h2></h2>
+    </div> -->
+   
+    </body>
+
+</html>

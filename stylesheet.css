@@ -1,0 +1,322 @@
+/* CSS */
+
+body {
+    background-color: #ccf5f5;
+}
+
+#gameholder {
+    width: 1000px;
+    margin-top: -140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    width: 600px;
+    height: 150px;
+    background-image:url('img/penguin_title.png');
+    margin: 0 auto;
+}
+
+#pageWrapper {
+    margin: 0 auto;
+    min-width: 1000px;
+    height: 700px;
+}
+
+#topBar {
+    text-align: center;
+}
+
+* {
+    font-family: 'lato';
+    color: snow;
+}
+
+#topBar ul li {
+    margin: 40px;
+}
+
+#points {
+    color: #778F8F;
+}
+
+
+/*********************************************************************************************************
+BUTTONS
+**********************************************************************************************************/
+
+
+
+/**************
+SOUNDS
+***************/
+
+
+
+#soundsButton:hover h2,
+#musicButton:hover h2 {
+    cursor: pointer;
+}
+
+
+
+
+
+#soundsButton h2 {
+    padding: 20px 25px; 
+    position:relative;
+    top: -20px;
+}
+
+#musicButton h2 {
+    padding: 40px 70px 30px 40px;
+    position:relative;
+    top: -20px;
+    left: -0px;
+    color: #B0B8B8;
+}
+
+
+#soundsButton {
+    border: 2px solid #9DE1E1;
+    position: relative;
+    top: -25px;
+    width: 150px;
+    height: 100px;
+    background-color: #9DE1E1;
+}
+
+#musicButton{
+    border: 2px solid #9DE1E1;
+    position: relative;
+    top: -35px;
+    width: 150px;
+    height: 100px;
+    background-color: #9DE1E1;
+}
+
+/****************************************************************************************************************
+PENGUINS
+****************************************************************************************************************/
+
+
+.spot {
+    background-image: url('img/mound_1.png');
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+}
+
+.spot:hover {
+    cursor: pointer;
+}
+
+.spot:active {
+    background-image: url('img/mound_1.png');
+    cursor: pointer;
+}
+
+
+img {
+    height: 200px;
+    width: 180px;
+}
+
+.spot {
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+#topRow,
+#bottomRow {
+    text-align: center;
+}
+
+
+
+/****************************************************************************************************************
+THANKS SCREEN
+****************************************************************************************************************/
+
+.nobreak {
+    display: inline-block;
+    font-size: 48px;
+}
+
+#thanks {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #6BC0C0;
+    width: 80%;
+    height: 400px;
+    border: 2px solid red;
+    position: relative;
+    top: -500px;
+}
+
+
+
+/****************
+SNOWFLAKES
+*****************/
+
+
+
+/******
+#penguin1:hover {
+    background-image: url('img/mound_1_hover.png');
+    cursor: pointer;
+}
+
+#penguin1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_1.png');
+}
+
+
+
+#penguin2:hover {
+    background-image: url('img/mound_2_hover.png');
+    cursor: pointer;
+}
+
+#penguin2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_2.png');
+}
+
+#penguin2:active {
+    background-image: url('img/penguin_2.png');
+}
+
+#penguin3:hover {
+    background-image: url('img/mound_3_hover.png');
+    cursor: pointer;
+}
+
+#penguin3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_3.png');
+}
+
+
+#penguin3:active {
+    background-image: url('img/penguin_3.png');
+}
+
+
+
+#penguin4:hover {
+    background-image: url('img/mound_4_hover.png');
+    cursor: pointer;
+}
+
+#penguin4 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_4.png');
+}
+
+#penguin4:active {
+    background-image: url('img/penguin_4.png');
+}
+
+
+
+#penguin5:hover {
+    background-image: url('img/mound_5_hover.png');
+    cursor: pointer;
+}
+
+#penguin5 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_5.png');
+}
+
+#penguin5:active {
+    background-image: url('img/penguin_5.png');
+}
+
+
+#penguin6:hover {
+    background-image: url('img/mound_1_hover.png');
+    cursor: pointer;
+}
+
+#penguin6 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_6.png');
+}
+
+#penguin6:active {
+    background-image: url('img/penguin_6.png');
+}
+
+
+#penguin7:hover {
+    background-image: url('img/mound_7_hover.png');
+    cursor: pointer;
+}
+
+#penguin7 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_7.png');
+}
+
+
+#penguin7:active {
+    background-image: url('img/penguin_7.png');
+}
+
+#penguin8:hover {
+    background-image: url('img/mound_8_hover.png');
+    cursor: pointer;
+}
+
+#penguin8 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_8.png');
+}
+
+#penguin8:active {
+    background-image: url('img/penguin_8.png');
+}
+
+
+#yeti:hover {
+    background-image: url('img/mound_9_hover.png');
+    cursor: pointer;
+}
+
+#yeti {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image:url('img/mound_9.png');
+}
+
+#yeti:active {
+    background-image: url('img/yeti.png');
+    cursor: pointer;
+}
+****/
